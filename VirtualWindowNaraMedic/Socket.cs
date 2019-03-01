@@ -130,7 +130,7 @@ namespace VirtualWindowUWP
                                 rootFrame.ContentTransitions.Add(new NavigationThemeTransition());
                                 rootFrame.Navigate(typeof(PseudoLivePage));
                                 //result = "OK";
-                                result = "BLANK";
+                                result = "OK";
                                 break;
                             /*case "BLANK":
                                 // change mode to blank mode
