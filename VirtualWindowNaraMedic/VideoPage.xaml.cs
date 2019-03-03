@@ -57,6 +57,7 @@ namespace VirtualWindowUWP
 
         public static async void GetVideoList()
         {
+            videoLibrary = await videoLibrary.GetFolderAsync("VirtualWindow");
             // Create file query for change detection
             var options = new Windows.Storage.Search.QueryOptions
             {

@@ -222,14 +222,14 @@ namespace VirtualWindowUWP
 
             //透過を率を変更する
             //（詳細）開始（transmission_span）秒で透過0%，（60 * refresh_minute - transmission_span）秒から透過開始
-            if (transmission_speed <= transmission_span)
+            /*if (transmission_speed <= transmission_span)
             {
                 videoObject2.Opacity = 0.1 * transmission_speed * (10 / transmission_span);
             }
             else if (60 * refresh_minute - transmission_span <= transmission_speed && transmission_speed <= 60 * refresh_minute)
             {
                 videoObject2.Opacity = 0.1 * (60 * refresh_minute - transmission_speed) * (10 / transmission_span);
-            }
+            }*/
 
             //動画更新
             if (transmission_speed == transmission_span)

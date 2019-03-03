@@ -106,7 +106,6 @@ namespace VirtualWindowUWP
                                 rootFrame.ContentTransitions.Add(new NavigationThemeTransition());
                                 rootFrame.Navigate(typeof(ImagePage));
                                 result = "OK";
-                                PseudoLivePage.transmission_image.Stop(); //smurano追加部　擬似ライブ映像スレッドを停止する
                                 break;
                             case "VIDEO":
                                 // change mode to video mode and set the specified video
@@ -114,7 +113,6 @@ namespace VirtualWindowUWP
                                 rootFrame.ContentTransitions.Add(new NavigationThemeTransition());
                                 rootFrame.Navigate(typeof(VideoPage));
                                 result = "OK";
-                                PseudoLivePage.transmission_image.Stop(); //smurano追加部　擬似ライブ映像スレッドを停止する
                                 break;
                             case "LIVE":
                                 // change mode to live mode
