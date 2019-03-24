@@ -51,7 +51,7 @@ namespace VirtualWindowUWP
                 case "liveButton":
                     pageType = typeof(LivePage); break;
                 case "blankButton":
-                    pageType = typeof(PseudoLivePage); break;
+                    pageType = typeof(BlankPage); break;
                 case "imageButton":
                     pageType = typeof(ImagePage); break;
                 case "videoButton":

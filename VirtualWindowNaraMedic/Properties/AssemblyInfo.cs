@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("VirtualWindowUWP")]
-[assembly: AssemblyDescription("This app is for Doshisha-NaraMedicalUniv. project")]
+[assembly: AssemblyDescription("This app is for Doshisha-3x3LabFuture. project")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Doshisha University")]
 [assembly: AssemblyProduct("VirtualWindowUWP")]

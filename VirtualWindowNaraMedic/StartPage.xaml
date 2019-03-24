@@ -67,7 +67,7 @@
             </Button>
             <Button x:Name="blankButton" Grid.Column="3" Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#7F000000" Click="NavigateButtonClick">
                 <Viewbox Margin="25">
-                    <TextBlock Foreground="White">擬似ライブ映像</TextBlock>
+                    <TextBlock Foreground="White">画面オフ</TextBlock>
                 </Viewbox>
             </Button>
             <Button x:Name="imageButton" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#7F000000" Click="NavigateButtonClick">

@@ -120,13 +120,13 @@ namespace VirtualWindowUWP
                                 rootFrame.ContentTransitions.Add(new NavigationThemeTransition());
                                 rootFrame.Navigate(typeof(LivePage));
                                 result = "OK";
-                                PseudoLivePage.transmission_image.Stop(); //smurano追加部　擬似ライブ映像スレッドを停止する
+                                //PseudoLivePage.transmission_image.Stop(); //smurano追加部　擬似ライブ映像スレッドを停止する
                                 break;
                             case "BLANK":
                                 // change mode to live mode
                                 rootFrame.ContentTransitions = new TransitionCollection();
                                 rootFrame.ContentTransitions.Add(new NavigationThemeTransition());
-                                rootFrame.Navigate(typeof(PseudoLivePage));
+                                rootFrame.Navigate(typeof(BlankPage));
                                 //result = "OK";
                                 result = "OK";
                                 break;
@@ -144,7 +144,7 @@ namespace VirtualWindowUWP
                                 rootFrame.Navigate(typeof(StartPage));
                                 rootFrame.BackStack.Clear();
                                 result = "OK";
-                                PseudoLivePage.transmission_image.Stop(); //smurano追加部　擬似ライブ映像スレッドを停止する
+                                //PseudoLivePage.transmission_image.Stop(); //smurano追加部　擬似ライブ映像スレッドを停止する
                                 break;
                             case "NEXT":
                                 Debug.WriteLine(App.GetMode());
@@ -158,7 +158,7 @@ namespace VirtualWindowUWP
                                         break;
                                 }
                                 result = "OK";
-                                PseudoLivePage.transmission_image.Stop(); //smurano追加部　擬似ライブ映像スレッドを停止する
+                                //PseudoLivePage.transmission_image.Stop(); //smurano追加部　擬似ライブ映像スレッドを停止する
                                 break;
                             case "PREVIOUS":
                                 switch (App.GetMode())
@@ -171,7 +171,7 @@ namespace VirtualWindowUWP
                                         break;
                                 }
                                 result = "OK";
-                                PseudoLivePage.transmission_image.Stop(); //smurano追加部　擬似ライブ映像スレッドを停止する
+                                //PseudoLivePage.transmission_image.Stop(); //smurano追加部　擬似ライブ映像スレッドを停止する
                                 break;
                             case "SET_IMAGE_BY_ID":
                                 {

@@ -14,8 +14,8 @@
     <Resource Language="x-generate" />
   </Resources>
   <Applications>
-    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="VirtualWindowNaraMedic.App">
-      <uap:VisualElements DisplayName="VirtualWindowNaraMedic" Square150x150Logo="Assets\MediumTile.png" Square44x44Logo="Assets\AppListicon.png" Description="VirtualWindow developped for Nara Medical Hospital." BackgroundColor="transparent">
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="VirtualWindow3x3Lab.App">
+      <uap:VisualElements DisplayName="VirtualWindow3x3Lab" Square150x150Logo="Assets\MediumTile.png" Square44x44Logo="Assets\AppListicon.png" Description="VirtualWindow developped for 3x3Lab Future." BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\WideTile.png" ShortName="Virtual Window" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png">
           <uap:ShowNameOnTiles>
             <uap:ShowOn Tile="square150x150Logo" />
